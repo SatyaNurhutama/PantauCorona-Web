@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    background-color: #5e2424;
+}
+
+main{
+  background-color: #fdfdfd;
+}
+
+#background{
+    background: url('../images/background3.jpg');
+    margin-top:-120px;
+    background-size:cover;
+    padding-top:111px;
+    height:638px;
+    max-height:1112px;
+  }
+  
+  #background .jumbotron{
+    background:none;
+    margin-left:50px;
+    max-width:1000px;
+    margin-top:40px;
+    max-width: 490px;
+  }
+  
+  #background .jumbotron h1{
+    font-family: 'Open Sans', sans-serif;
+    color:#474747;
+    margin-bottom:-12px;
+    font-display: bold;
+  }
+  
+  #background .jumbotron p{
+    font-family: 'Open Sans', sans-serif;
+    color:#696969;
+    margin-top:27px;
+    font-size: 18px;
+  }
+
+  #home{
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #home .container h2{
+    padding-bottom: 40px;
+    margin: 0;
+  }
+
+  #home .container h3{
+    padding: 10px;
+  }
+  
+  
+  #home .container .row{
+    margin:-3px;
+    margin-bottom: 30px;
+
+  }
+
+  #home a{
+    font-size: 20px;
+  }
+  
+  #home .isi .container.atas{
+    background-color:#ffffff;
+    margin-top:-85px;
+    padding:40px;
+    margin-bottom: 40px;
+    padding-bottom:37px;
+    box-shadow: 0px -1px 5px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+  }
+
+  #home2{
+    padding: 20px;
+  }
+  
+  #home2 .isi .container.atas{
+    background-color:#ffffff;
+    padding:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+  #home2 .container h4{
+    padding-bottom: 50px;
+    margin: 0;
+  }
+
+  #home2 .container p {
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .scrollspy{
+    height: 500px;
+    width: 1200px;
+    overflow: scroll;
+  }
+
+  .navbar a{
+    color: #567ccf !important;
+    font-weight: 600; 
+  }
+
+  .collapse a{
+    color: #6c8cd7 !important;
+    font-size: 14px;
+  }
+
+  .collapse a:hover{
+    transform:scale(1.1);
+    transition:all 0.90s ease 0s;
+}
+
+  footer{
+    text-align: center;
+    color: #FAFAFA;
+    background-color: #3960d4;
+    padding: 20px;
+    font-size: 20px;
+}
+
